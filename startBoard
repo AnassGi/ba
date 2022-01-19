@@ -3,7 +3,10 @@ void startBoard(int board[][10])
 {
 printf("******************************************************************* the battleship game ********************************************************* *********************************************************\n");
 printf("Welcome Player!,  choose your level \n ");  
-  printf("1.Eazy\n 2.Difficult\n 3.Hard \n 4.Quit");
+  printf("1.Eazy\n"); 
+  printf("2.Difficult\n");
+  printf("3.Hard \n");
+  printf("4.Quit");
     int line, column;
         for(line=0 ; line < 10 ; line++ )
             for(column=0 ; column < 10 ; column++ )
